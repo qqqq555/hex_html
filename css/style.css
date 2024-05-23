@@ -126,6 +126,10 @@ body::-webkit-scrollbar {
     font-size: 16px;
     line-height: 24px;
 }
+.navbar nav a:hover {
+    color: #00CC99;
+    text-shadow: 0 2px 8px rgba(0, 204, 153, 0.5);
+}
 .green_border{
     border-bottom: #00CC99 solid 4px;
 }
@@ -316,4 +320,8 @@ body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.interest button:hover {
+    background: linear-gradient(135deg, #00CC99, #00594C);
+    border-color: #00CC99;
 }
