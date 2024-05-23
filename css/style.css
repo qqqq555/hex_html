@@ -55,6 +55,9 @@ body::-webkit-scrollbar {
     height: 32px;
     display: flex;
     justify-content: flex-end; 
+}
+.top ul{
+    display: flex;
     align-items: center;
 }
 .top ul li{
@@ -69,14 +72,16 @@ body::-webkit-scrollbar {
 }
 .top li img{
 	margin-right: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     float: left;
 }
 .top li span{
+    margin-top: 4px;
+    margin-bottom: 4px;
     float: left;
 }
 .facebook{
-	border-right: 1px solid #cccccc;
-	padding-right: 12px;
     margin-right: 12px;
 }
 .facebook span{
@@ -84,6 +89,12 @@ body::-webkit-scrollbar {
 }
 .twitter span{
     color: #1DA1F2;
+}
+.line{
+    height: 10px;
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    margin-right: 12px;
 }
 
 .navbar{
@@ -229,6 +240,8 @@ body::-webkit-scrollbar {
     background: linear-gradient(180deg, #E4FFF8 0%, #A2DDCE 100%);
     padding-top: 36px;
     padding-bottom: 36px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .interest h3{
     text-align: center;
@@ -237,4 +250,46 @@ body::-webkit-scrollbar {
     font-weight: bold;
     color: #00251A;
     margin-bottom: 28px;
+}
+.interest label{
+    color: #00251A;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+.interest input, .interest textarea{
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #AAAAAA;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 350px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1px;
+}
+.interest textarea{
+    resize: none;
+    height: 200px;
+    width: 350px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    width: 351px;
+    border: 1px #00251A solid;
+    box-sizing: border-box;
+}
+.left{
+    width: 350px;
+    margin-right: 30px;
+    float: left;
+    border: 1px #00251A solid;
+    box-sizing: border-box;
+}
+.interest input::placeholder{
+    color: #999999;
 }
